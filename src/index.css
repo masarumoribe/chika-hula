@@ -12,6 +12,12 @@
   scroll-behavior: smooth;
 }
 
+@layer base {
+  .icon {
+    @apply text-3xl cursor-pointer text-cyan-500;
+  }
+}
+
 @layer components {
   .max-container {
     max-width: 2000px;
