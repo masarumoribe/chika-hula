@@ -3,6 +3,8 @@ import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
 import heroPhoto from './chika-hula.jpg'
 
+import profile from './profile.jpg'
+
 import customer1 from './customer1.jpeg'
 import customer2 from './customer2.svg'
 
@@ -27,6 +29,8 @@ export {
     bigShoe2,
     bigShoe3,
     heroPhoto,
+
+    profile,
 
     customer1,
     customer2,

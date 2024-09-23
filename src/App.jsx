@@ -5,7 +5,7 @@ const App = () => (
   <main className="relative">
     <Nav />
     <section className=""><Hero /></section>
-    <section className="padding"><Profile /></section>
+    <section className=""><Profile /></section>
     <section className="padding"><Classes /></section>
     <section className="padding"><Instructors /></section>
     <section className="padding"><Gallery /></section>

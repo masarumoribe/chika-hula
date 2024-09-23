@@ -1,6 +1,6 @@
 const Button = ({ label, iconURL }) => {
   return (
-    <button className='flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-amber-200 rounded-full text-slate-gray'>
+    <button className='flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-primary rounded-full text-slate-gray'>
         {label}
         <img
             src={iconURL}

@@ -14,7 +14,7 @@ const Nav = () => {
   }
 
   return (
-    <header className='fixed z-20 w-full bg-amber-200'>
+    <header className='fixed z-20 w-full bg-amber-300'>
       <nav className='flex justify-between items-center max-container px-3 md:px-[30px]'>
         <div>
           <a href="/" className={logo ? 'hidden' : 'flex flex-row justify-center items-center font-montserrat text-slate-gray'}>
