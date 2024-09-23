@@ -1,52 +1,59 @@
-import bigShoe1 from './big-shoe1.png'
-import bigShoe2 from './big-shoe2.png'
-import bigShoe3 from './big-shoe3.png'
+import headerLogo from './chika-logo.png'
+
 import heroPhoto from './chika-hula.jpg'
 
 import profile from './profile.jpg'
 
-import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
+import chika0 from './chika0.jpg'
+import chika1 from './chika1.jpeg'
+import chika2 from './chika2.jpeg'
+import chika3 from './chika3.jpeg'
+import chika4 from './chika4.jpeg'
+import chika5 from './chika5.jpeg'
+import chika6 from './chika6.jpeg'
+import chika7 from './chika7.jpeg'
+import chika8 from './chika8.jpeg'
+import chika9 from './chika9.jpeg'
+import chika10 from './chika10.jpeg'
+import chika11 from './chika11.jpeg'
+import chika12 from './chika12.jpeg'
+import chika13 from './chika13.jpeg'
+import chika14 from './chika14.jpeg'
+import chika15 from './chika15.jpeg'
+import chika16 from './chika16.jpeg'
+import chika17 from './chika17.jpeg'
+import chika18 from './chika18.jpeg'
+import chika19 from './chika19.jpeg'
+import chika20 from './chika20.jpeg'
 
-import footerLogo from './footer-logo.svg'
-import headerLogo from './chika-logo.png'
 
-import offer from './offer.svg'
-
-import shoe4 from './shoe4.svg'
-import shoe5 from './shoe5.svg'
-import shoe6 from './shoe6.svg'
-import shoe7 from './shoe7.svg'
-import shoe8 from './shoe8.svg'
-
-import thumbnailBackground from './thumbnail-background.svg'
-import thumbnailShoe1 from './thumbnail-shoe1.svg'
-import thumbnailShoe2 from './thumbnail-shoe2.svg'
-import thumbnailShoe3 from './thumbnail-shoe3.svg'
 
 export {
-    bigShoe1,
-    bigShoe2,
-    bigShoe3,
+    headerLogo,
+
     heroPhoto,
 
     profile,
 
-    customer1,
-    customer2,
-
-    footerLogo,
-    headerLogo,
-
-    offer,
-    shoe4,
-    shoe5,
-    shoe6,
-    shoe7,
-    shoe8,
-
-    thumbnailBackground,
-    thumbnailShoe1,
-    thumbnailShoe2,
-    thumbnailShoe3
+    chika0,
+    chika1,
+    chika2,
+    chika3,
+    chika4,
+    chika5,
+    chika6,
+    chika7,
+    chika8,
+    chika9,
+    chika10,
+    chika11,
+    chika12,
+    chika13,
+    chika14,
+    chika15,
+    chika16,
+    chika17,
+    chika18,
+    chika19,
+    chika20
 }

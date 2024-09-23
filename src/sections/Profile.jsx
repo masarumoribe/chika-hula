@@ -1,29 +1,3 @@
-// import { profile } from '../assets/images'
-
-// function Profile() {
-//   return (
-//     <section id='profile' className='relative w-full min-h-screen bg-primary p-8'>
-//       <div className='py-4 text-center text-3xl'>
-//         <h1 className='font-notoSansJp text-center font-semibold'>プロフィール</h1>
-//         <h2>Aloha Nani Pua Melia Chika</h2>
-//         <h2>鵜澤智華</h2>
-//       </div>
-//       <img src={profile} alt='profile picture' className="w-full h-auto object-cover rounded-2xl shadow-lg"/>
-//       <div className='text-center py-4'>
-//         <p>お神輿大好きフラダンサー</p>
-//         <p>フラダンス歴14年</p>
-//         <p>ソロコンペ3位</p>
-//         <p>グループコンペ入賞</p>
-//         <h2>Academy of Hawaiian Arts Japan 所属</h2>
-//         <p>フラダンス命</p>
-//         <p>楽しく皆で笑顔で踊るをモットーにしています。是非一緒に踊りましょう</p>
-//       </div>
-//     </section>
-//   )
-// }
-
-// export default Profile
-
 import { profile } from '../assets/images';
 
 function Profile() {
@@ -31,7 +5,7 @@ function Profile() {
     <section id='profile' className='relative w-full min-h-screen bg-gradient-to-r from-amber-100 to-amber-200 p-8'>
       <div className='py-4 text-center text-3xl'>
         <h1 className='font-notoSansJp text-center font-semibold text-secondary animate-bounce'>プロフィール</h1>
-        <div className='bg-secondary rounded-full mx-24'>
+        <div className='bg-secondary rounded-full mx-10 md:mx-24'>
           <h2 className='text-primary font-semibold tracking-wide'>Aloha Nani Pua Melia Chika</h2>
           <h2 className='text-primary font-semibold tracking-wide'>鵜澤智華</h2>
         </div>
@@ -49,7 +23,7 @@ function Profile() {
           <p className='text-lg lg:text-3xl lg:leading-tight text-secondary font-light'>グループコンペ入賞</p>
           <h2 className='text-2xl lg:text-3xl lg:leading-tight text-secondary font-bold mt-4'>Academy of Hawaiian Arts Japan 所属</h2>
           <p className='text-lg lg:text-3xl lg:leading-tight text-secondary font-bold mt-4'>フラダンス命</p>
-          <p className='text-lg lg:text-3xl lg:leading-tight text-secondary font-light'>楽しく皆で笑顔で踊るをモットーにしています。<br/>是非一緒に踊りましょう</p>
+          <p className='text-lg lg:text-3xl lg:leading-tight text-secondary font-light text-wrap:no-wrap'>楽しく皆で笑顔で踊るをモットーにしています。<br/>是非一緒に踊りましょう</p>
         </div>
       </div>
     </section>
