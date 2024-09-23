@@ -19,7 +19,7 @@ const Gallery = () => {
   return (
 
     <div className="max-w-[1400px] mx-auto bg-secondary min-h-screen px-4 py-16 relative flex flex-col justify-center items-center">
-      <h1 className="text-center text-3xl font-notoSansJp">ギャラリー</h1>
+      <h1 className="text-center text-3xl font-notoSansJp pb-24">ギャラリー</h1>
       <div className="flex justify-center items-center">
         {pictures.map((item, index) => (
           <div key={index} className={index === slide ? 'opacity-100' : 'opacity-0'}>

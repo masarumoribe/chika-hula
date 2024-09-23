@@ -9,8 +9,8 @@ const App = () => (
     {/* <section className="padding"><Classes /></section>
     <section className="padding"><Instructors /></section> */}
     <section className=""><Gallery /></section>
-    <section className="padding"><Testimonials /></section>
-    <section className="padding"><Footer /></section>
+    {/* <section className="padding"><Testimonials /></section> */}
+    <section className=""><Footer /></section>
   </main>
 )
 
