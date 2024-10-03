@@ -18,14 +18,14 @@ const Gallery = () => {
 
   return (
 
-    <div className="max-w-[1400px] mx-auto bg-secondary min-h-screen px-4 py-16 relative flex flex-col justify-center items-center">
-      <h1 className="text-center text-3xl font-notoSansJp pb-24">ギャラリー</h1>
-      <div className="flex justify-center items-center">
-        {pictures.map((item, index) => (
-          <div key={index} className={index === slide ? 'opacity-100' : 'opacity-0'}>
-            {index === slide && <img className="w-full rounded-md" src={item} alt="gallery picture"/>}
+    <section id="gallery">
+      <div className="mx-auto bg-secondary min-h-screen px-4 py-16 relative flex flex-col justify-center items-center">
+      <h1 className="text-center text-3xl text-slate-800 font-bold font-notoSansJp">ギャラリー</h1>
+      <div className="max-w-[1400px] h-[600px] w-full rounded-xl bg-black/10 m-auto p-6 relative">
+          <div
+          style={{backgroundImage: `url(${pictures[slide]})`}}
+          className="w-full h-full bg-center bg-contain bg-no-repeat duration-500">
           </div>
-        ))}
         <div onClick={prevSlide} className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactLeft size={50}/>
         </div>
@@ -34,6 +34,7 @@ const Gallery = () => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

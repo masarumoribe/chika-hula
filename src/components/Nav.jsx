@@ -19,7 +19,7 @@ const Nav = () => {
         <div>
           <a href="/" className={logo ? 'hidden' : 'flex flex-row justify-center items-center font-montserrat text-slate-gray'}>
             <img className='size-16 m-5' src={headerLogo} alt="logo" />
-            <h1>Chika Hula</h1>
+            <h1 className='text-slate-gray'>Chika Hula</h1>
           </a>
         </div>
         <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
