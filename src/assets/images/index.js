@@ -4,6 +4,8 @@ import heroPhoto from './chika-hula.jpg'
 
 import profile from './profile.jpg'
 
+import plumeria from './plumeria.png'
+
 import chika0 from './chika0.jpg'
 import chika1 from './chika1.jpeg'
 import chika2 from './chika2.jpeg'
@@ -26,6 +28,8 @@ import chika18 from './chika18.jpeg'
 import chika19 from './chika19.jpeg'
 import chika20 from './chika20.jpeg'
 
+import contactBackground from './contactBackground.png'
+
 
 
 export {
@@ -34,6 +38,8 @@ export {
     heroPhoto,
 
     profile,
+
+    plumeria,
 
     chika0,
     chika1,
@@ -55,5 +61,7 @@ export {
     chika17,
     chika18,
     chika19,
-    chika20
+    chika20,
+
+    contactBackground
 }

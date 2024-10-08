@@ -8,7 +8,7 @@ const Hero = () => {
     <section
     id="home"
     className="relative w-full flex flex-col md:flex-row justify-center items-center min-h-screen bg-secondary overflow-hidden pt-24 xl:px-36">
-      <div className="md:w-[60%] flex flex-col justify-center items-center md:items-start p-8 md:p-10 text-center md:text-left">
+      <div className="md:w-[60%] flex flex-col justify-center items-center md:items-start p-8 md:p-10 text-center md:text-left z-10">
         <p className="text-lg md:text-2xl xl:text-3xl xl:leading-10 font-semibold text-primary font-montserrat">Aloha Nani Pua Melia Chika <br/> Hula Academy</p>
         <h1 className="mt-5 text-[clamp(35px,5vw,50px)] xl:text-4xl leading-tight font-bold font-palanquin">
           <div className="bg-secondary/90 pt-2">Enjoy Our New</div>
@@ -24,7 +24,7 @@ const Hero = () => {
           <Button label="Enroll now" iconURL={arrowRight}/>
         </div>
       </div>
-      <div className="mt-2 w-full max-w-sm md:max-w-md mb-8 md:mr-8">
+      <div className="mt-2 w-full max-w-sm md:max-w-md mb-8 md:mr-8 z-10">
         <img
         src={heroPhoto}
         alt="hula dance"
