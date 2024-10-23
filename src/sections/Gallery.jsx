@@ -19,7 +19,7 @@ const Gallery = () => {
   return (
 
     <section id="gallery">
-      <div className="mx-auto bg-secondary min-h-screen px-4 py-16 flex flex-col justify-center items-center -z-10">
+      <div className="mx-auto bg-gradient-to-r from-amber-100 to-amber-200 min-h-screen px-4 py-16 flex flex-col justify-center items-center -z-10">
       <h1 className="text-center text-3xl text-slate-800 font-bold font-notoSansJp z-10">ギャラリー</h1>
       <div className="max-w-[1400px] h-[600px] w-full rounded-xl bg-black/10 m-auto p-6 relative">
           <div

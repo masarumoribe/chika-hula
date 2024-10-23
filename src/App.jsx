@@ -9,8 +9,8 @@ const App = () => (
     <div className="absolute top-80 -left-96"><Overlay /></div>
     <section className=""><Profile /></section>
     <div className="w-[700px] absolute top-[1500px] -right-72"><Overlay /></div>
-    {/* <section className="padding"><Classes /></section>
-    <section className="padding"><Instructors /></section> */}
+    <section className=""><Classes /></section>
+    {/* <section className="padding"><Instructors /></section> */}
     <section className=""><Gallery /></section>
     <section className=""><ContactUs /></section>
     <section className=""><Footer /></section>

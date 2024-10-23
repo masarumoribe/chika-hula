@@ -6,8 +6,8 @@ function Profile() {
       <div className='relative py-4 text-center text-3xl z-10'>
         <h1 className='font-notoSansJp text-center font-semibold text-slate-900'>プロフィール</h1>
         <div className='bg-secondary rounded-full mx-10 md:mx-24'>
-          <h2 className='text-slate-900 font-semibold tracking-wide'>Aloha Nani Pua Melia Chika</h2>
-          <h2 className='font-notoSansJp text-slate-900 font-semibold tracking-wide'>鵜澤智華</h2>
+          <h2 className='text-slate-900 text-xl md:text-2xl font-semibold pt-2'>Aloha Nani Pua Melia Chika</h2>
+          <h2 className='font-notoSansJp text-slate-900 text-xl md:text-2xl font-semibold tracking-wide pb-2'>鵜澤智華</h2>
         </div>
       </div>
       <div className='flex flex-col justify-center items-center md:flex-row md:gap-5 md:mt-24 md:mb-10'>
