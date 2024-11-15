@@ -1,7 +1,7 @@
 export const navLinks = [
-    { href: "#home" , label: "Home"},
-    { href: "#profile", label: "Profile"},
-    { href: "#classes", label: "Classes"},
-    { href: "#gallery" , label: "Gallery"},
-    { href: "#contact-us" , label: "Contact Us"},
+    { href: "#home" , label: "ホーム"},
+    { href: "#profile", label: "プロフィール"},
+    { href: "#classes", label: "クラス"},
+    { href: "#gallery" , label: "ギャラリー"},
+    { href: "#contact-us" , label: "お問い合わせ"},
 ]

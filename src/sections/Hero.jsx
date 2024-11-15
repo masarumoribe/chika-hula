@@ -21,10 +21,10 @@ const Hero = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam</p>
         <div className="mt-6 md:mt-8 transition-transform duration-300 hover:scale-105">
-          <Button label="Enroll now" iconURL={arrowRight}/>
+          <Button label="Enroll now" iconURL={arrowRight} linkTo="#contact-us"/>
         </div>
       </div>
-      <div className="mt-2 w-full max-w-sm md:max-w-md mb-8 md:mr-8 z-10">
+      <div className="mt-2 w-full max-w-sm p-2 md:max-w-md mb-8 md:mr-8 z-10">
         <img
         src={heroPhoto}
         alt="hula dance"

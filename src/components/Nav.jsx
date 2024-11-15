@@ -16,16 +16,19 @@ const Nav = () => {
   return (
     <header className='fixed z-20 w-full bg-amber-300'>
       <nav className='flex justify-between items-center max-container px-3 md:px-16'>
-        <div>
+        <div className='2xl:w-1/4'>
           <a href="/" className={logo ? 'hidden' : 'flex flex-row justify-center items-center font-montserrat text-slate-gray'}>
             <img className='size-16 m-5' src={headerLogo} alt="logo" />
-            <h1 className='text-slate-gray'>Chika Hula</h1>
+            <div className='text-sm'>
+              <h1 className='text-slate-gray'>Aloha Nani Pua Melia Chika</h1>
+              <h1 className='text-slate-gray'>Hula Academy</h1>
+            </div>
           </a>
         </div>
         <ul className='flex-1 flex justify-end items-center gap-16 max-lg:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a href={item.href} className='font-montserrat leading-normal text-lg text-slate-gray'>
+              <a href={item.href} className='font-notoSansJp leading-normal text-sm text-slate-gray'>
                 {item.label}
               </a>
             </li>
@@ -48,11 +51,14 @@ const Nav = () => {
           <ul>
             <a href="/" className='flex flex-row justify-center items-center font-montserrat text-slate-gray'>
             <img className='size-16 m-5' src={headerLogo} alt="logo" />
-            <h1>Chika Hula</h1>
+            <div className='text-sm'>
+              <h1 className='text-slate-gray'>Aloha Nani Pua Melia Chika</h1>
+              <h1 className='text-slate-gray'>Hula Academy</h1>
+            </div>
           </a>
           {navLinks.map((item) => (
             <li key={item.label} className='text-center border-b m-2'>
-              <a href={item.href} className='font-montserrat leading-normal text-2xl text-slate-gray p-4'>
+              <a href={item.href} className='font-notoSansJp leading-normal text-slate-gray p-4'>
                 {item.label}
               </a>
             </li>
