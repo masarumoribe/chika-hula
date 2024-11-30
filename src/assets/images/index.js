@@ -30,6 +30,9 @@ import chika20 from './chika20.jpeg'
 
 import contactBackground from './contactBackground.png'
 
+import test0 from './test0.jpg'
+import test1 from './test1.jpg'
+import test2 from './test2.jpg'
 
 
 export {
@@ -63,5 +66,9 @@ export {
     chika19,
     chika20,
 
-    contactBackground
+    contactBackground,
+
+    test0,
+    test1,
+    test2
 }

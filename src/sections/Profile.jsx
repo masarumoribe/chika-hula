@@ -5,7 +5,7 @@ function Profile() {
     <section id='profile' className='w-full min-h-screen bg-gradient-to-r from-amber-100 to-amber-200 p-8 xl:px-36 -z-10'>
       <div className='relative py-4 text-center text-3xl z-10'>
         <h1 className='font-notoSansJp text-center font-semibold text-slate-900'>プロフィール</h1>
-        <div className='bg-secondary rounded-full mx-10 md:mx-24'>
+        <div className='bg-secondary opacity-80 rounded-3xl mx-10 md:mx-24'>
           <h2 className='text-slate-900 text-xl md:text-2xl font-semibold pt-2'>Aloha Nani Pua Melia Chika</h2>
           <h2 className='font-notoSansJp text-slate-900 text-xl md:text-2xl font-semibold tracking-wide pb-2'>鵜澤智華</h2>
         </div>
