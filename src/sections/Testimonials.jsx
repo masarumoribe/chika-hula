@@ -44,9 +44,9 @@ const Testimonials = () => {
               {testimonial_data.map((item, index) => index === slide && <div key={index}>
                 <div className="flex gap-5">
                   <FaQuoteLeft size={120} className="items-start"/>
-                  <h2 className="font-notoSansJp text-3xl font-bold">{item.content_text}</h2>
+                  <h2 className="font-notoSansJp text-2xl md:text-3xl font-bold">{item.content_text}</h2>
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex items-center gap-5 mt-4">
                   <div>
                     <img src={item.img} height={100} width={100} className="aspect-square object-cover rounded-full" alt=""/>
                   </div>

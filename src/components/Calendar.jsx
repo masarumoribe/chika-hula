@@ -41,14 +41,15 @@ function Calendar() {
   }
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="h-full flex flex-col content-around p-4">
       <div>
-        <h2 className="text-center">{format(currentDate, "MMMM yyyy")}</h2>
+        <h2 className="text-center font-bold mb-3">{format(currentDate, "MMMM yyyy")}</h2>
       </div>
-      <div className="grid grid-cols-7 gap-2">
+      <hr/>
+      <div className="flex-1 grid grid-cols-7 gap-2 mt-4">
         {WEEKDAYS.map((day) => {
           return (
-            <div key={day} className="font-bold text-center">
+            <div key={day} className="font-bold text-center text-[10px] sm:text-xs">
               {day}
             </div>
           );
@@ -58,7 +59,7 @@ function Calendar() {
         })}
         {daysInMonth.map((day, index) => {
           return (
-            <div key={index} className="grid grid-cols-2 gap-1 border rounded-md p-2">
+            <div key={index} className="grid grid-cols-2 gap-1 border rounded-md text-[8px] sm:text-base p-1 sm:p-2">
               {console.log(day)}
               {format(day, "d")}
               {classToday(index)}

@@ -14,8 +14,12 @@ const Footer = () => {
             <p className='mt-3 text-sm leading-7 font-notoSansJp text-slate-800 sm:max-w-sm'>私たちの楽しいフラダンスクラスにご参加ください。踊りを学び、つながりを深めましょう。</p>
           </div>
           <div className='flex justify-between gap-6'>
-            <FaFacebook className='icon'/>
-            <FaInstagram className='icon'/>
+            <a href='https://www.instagram.com/chikashinsei/' target='_blank' rel='noreferrer noopener'>
+              <FaInstagram className='icon'/>
+            </a>
+            <a href='https://ja-jp.facebook.com/chika.matsumoto.35' target='_blank' rel='noreferrer noopener'>
+              <FaFacebook className='icon'/>
+            </a>
             <FaYoutube className='icon'/>
           </div>
         </div>
