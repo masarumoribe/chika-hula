@@ -17,23 +17,23 @@ function Calendar() {
 
   const classToday = (index) => {
     switch(index) {
-      case 0:
+      case 5:
         return <TbMoodCog/>
-      case 2:
+      case 0:
         return <TbMoodCheck/>
       case 7:
-        return <TbMoodCog/>
-      case 9:
         return <TbMoodKid/>
       case 14:
-        return <TbMoodCog/>
-      case 16:
-        return <TbMoodCheck/>
-      case 21:
-        return <TbMoodCog/>
-      case 23:
         return <TbMoodKid/>
+      case 12:
+        return <TbMoodCog/>
+      case 21:
+        return <TbMoodCheck/>
+      case 19:
+        return <TbMoodCog/>
       case 28:
+        return <TbMoodKid/>
+      case 26:
         return <TbMoodCog/>
       default:
         return ""
@@ -60,7 +60,6 @@ function Calendar() {
         {daysInMonth.map((day, index) => {
           return (
             <div key={index} className="grid grid-cols-2 gap-1 border rounded-md text-[8px] sm:text-base p-1 sm:p-2">
-              {console.log(day)}
               {format(day, "d")}
               {classToday(index)}
             </div>

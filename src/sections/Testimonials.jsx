@@ -2,23 +2,28 @@ import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
-import { test0, test1, test2 } from "../assets/images"
+import { test0, test1, test2, test3 } from "../assets/images"
 
 const testimonial_data = [
   {
     img: test0,
+    content_text: "フラを始めて約18年、昔は同じ生徒として一緒に練習していた智華ちゃんが、今は先生として指導してくれる立場になりました!今も昔も変わらずアットホームなレッスン風景で楽しく、時にスパルタに、わからないところは熱心に指導してくれます。息子と親子クラス(オハナクラス)にも参加していますが、わきあいあいと楽しんでいます！",
+    testimonial_name: "Señora 1"
+  },
+  {
+    img: test1,
+    content_text: "先生の教え方が非常にわかりやすく、またフラの楽しさが自然と伝わってきます。アウアナやカヒコを通じてハワイの神話や伝説にも触れることができ、心が豊かになります。レッスンを受けながら時には汗を流し、時にはハワイアンミュージックに癒され、自分自身と向き合う充実した時間を過ごすことができます。イベントに向けて仲間たちと練習することも楽しく、フラを通じて新しい友達や素敵なつながりができることも嬉しいです。",
+    testimonial_name: "Señora 2"
+  },
+  {
+    img: test2,
     content_text: "町で最高のフラダンス教室！先生は今まで会った中で一番素晴らしい フラ仲間の輪に加わって、無料体験レッスンを受けてみませんか？",
     testimonial_name: "Masaru Moribe"
   },
   {
-    img: test1,
+    img: test3,
     content_text: "ここが町で一番楽しいフラダンス教室！先生は本当に最高で感動します フラの世界に飛び込んで、無料体験レッスンを試してみませんか？",
     testimonial_name: "Ryo Akematsu"
-  },
-  {
-    img: test2,
-    content_text: "このフラダンス教室は本当に素敵！先生はとても優しくて教え方が上手 楽しい仲間と一緒に、フラの魅力をたっぷり楽しめます",
-    testimonial_name: "King Kong"
   }
 ]
 
@@ -44,7 +49,7 @@ const Testimonials = () => {
               {testimonial_data.map((item, index) => index === slide && <div key={index}>
                 <div className="flex gap-5">
                   <FaQuoteLeft size={120} className="items-start"/>
-                  <h2 className="font-notoSansJp text-2xl md:text-3xl font-bold">{item.content_text}</h2>
+                  <h2 className="font-notoSansJp md:text-2xl font-bold">{item.content_text}</h2>
                 </div>
                 <div className="flex items-center gap-5 mt-4">
                   <div>

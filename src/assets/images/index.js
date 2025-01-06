@@ -33,7 +33,7 @@ import contactBackground from './contactBackground.png'
 import test0 from './test0.jpg'
 import test1 from './test1.jpg'
 import test2 from './test2.jpg'
-
+import test3 from './test3.jpg'
 
 export {
     headerLogo,
@@ -70,5 +70,6 @@ export {
 
     test0,
     test1,
-    test2
+    test2,
+    test3
 }

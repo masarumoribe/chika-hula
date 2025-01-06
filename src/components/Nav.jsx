@@ -25,7 +25,7 @@ const Nav = () => {
             </div>
           </a>
         </div>
-        <ul className='flex-1 flex justify-end items-center gap-16 max-lg:hidden'>
+        <ul className='flex-1 flex justify-end items-center gap-16 max-xl:hidden'>
           {navLinks.map((item) => (
             <li key={item.label}>
               <a href={item.href} className='font-notoSansJp leading-normal text-sm text-slate-gray'>
@@ -36,7 +36,7 @@ const Nav = () => {
         </ul>
 
         {/* Hamburger */}
-        <div onClick={handleNav} className='hidden max-lg:block z-10 pr-8'>
+        <div onClick={handleNav} className='hidden max-xl:block z-10 pr-8'>
           {nav ? <img src={close} alt='close icon' width={25} height={25} className='text-black icon mt-2'/> : <img
             src={hamburger}
             alt='hamburger'

@@ -1,8 +1,9 @@
 import Hero from "./Hero";
 import Profile from "./Profile";
 import Classes from "./Classes";
-import Instructors from "./Testimonials";
+import Testimonials from "./Testimonials";
 import Gallery from "./Gallery";
+import Faq from "./Faq"
 import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 
@@ -10,8 +11,9 @@ export {
     Hero,
     Profile,
     Classes,
-    Instructors,
+    Testimonials,
     Gallery,
+    Faq,
     ContactUs,
     Footer
 }

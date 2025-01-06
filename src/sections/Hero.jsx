@@ -16,10 +16,9 @@ const Hero = () => {
             <span className="text-primary">Hula</span> Classes
           </div>
         </h1>
-        <p className="hidden md:block text-slate-600 text-md xl:text-lg xl:leading-8 leading-6 mt-6 md:mt-8 max-w-md">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam</p>
+        <p className="hidden md:block text-slate-600 font-notoSansJp text-lg xl:leading-8 leading-6 mt-6 md:mt-8 max-w-md">
+          船橋エリアで心と体を癒し育むフラダンスクラス。心を開き、魂を込めてフラの芸術に触れ、少し汗を流してみませんか？
+        </p>
         <div className="mt-6 md:mt-8 transition-transform duration-300 hover:scale-105">
           <Button label="Enroll now" iconURL={arrowRight} linkTo="#contact-us"/>
         </div>
