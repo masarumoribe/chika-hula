@@ -17,23 +17,23 @@ function Calendar() {
 
   const classToday = (index) => {
     switch(index) {
-      case 5:
+      case 2:
         return <TbMoodCog/>
-      case 0:
+      case 4:
         return <TbMoodCheck/>
-      case 7:
+      case 11:
         return <TbMoodKid/>
-      case 14:
+      case 25:
         return <TbMoodKid/>
-      case 12:
+      case 9:
         return <TbMoodCog/>
-      case 21:
+      case 18:
         return <TbMoodCheck/>
-      case 19:
+      case 16:
         return <TbMoodCog/>
-      case 28:
-        return <TbMoodKid/>
-      case 26:
+      case 23:
+        return <TbMoodCog/>
+      case 30:
         return <TbMoodCog/>
       default:
         return ""

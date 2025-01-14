@@ -2,18 +2,22 @@ import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
+import { motion } from "framer-motion"
+
+import { fadeIn } from "../variants"
+
 import { test0, test1, test2, test3 } from "../assets/images"
 
 const testimonial_data = [
   {
     img: test0,
     content_text: "フラを始めて約18年、昔は同じ生徒として一緒に練習していた智華ちゃんが、今は先生として指導してくれる立場になりました!今も昔も変わらずアットホームなレッスン風景で楽しく、時にスパルタに、わからないところは熱心に指導してくれます。息子と親子クラス(オハナクラス)にも参加していますが、わきあいあいと楽しんでいます！",
-    testimonial_name: "Señora 1"
+    testimonial_name: "Senior student"
   },
   {
     img: test1,
     content_text: "先生の教え方が非常にわかりやすく、またフラの楽しさが自然と伝わってきます。アウアナやカヒコを通じてハワイの神話や伝説にも触れることができ、心が豊かになります。レッスンを受けながら時には汗を流し、時にはハワイアンミュージックに癒され、自分自身と向き合う充実した時間を過ごすことができます。イベントに向けて仲間たちと練習することも楽しく、フラを通じて新しい友達や素敵なつながりができることも嬉しいです。",
-    testimonial_name: "Señora 2"
+    testimonial_name: "Senior student"
   },
   {
     img: test2,
@@ -42,9 +46,22 @@ const Testimonials = () => {
 
     <section id="testimonials">
       <div className="bg-secondary mx-auto min-h-screen px-4 py-16 flex flex-col justify-center items-center -z-10">
-        <h1 className="text-center text-3xl text-slate-800 font-bold font-montserrat z-10">Testimonials</h1>
-        <h1 className="text-center text-3xl text-slate-800 font-bold font-notoSansJp z-10">お客様の声</h1>
-        <div className="flex flex-col justify-center items-center max-w-[1400px] h-[400px] w-full rounded-xl bg-black/10 m-auto p-6 relative">
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false}}
+        >
+          <h1 className="text-center text-3xl text-slate-800 font-bold font-montserrat z-10">Testimonials</h1>
+          <h1 className="text-center text-3xl text-slate-800 font-bold font-notoSansJp z-10">お客様の声</h1>
+        </motion.div>
+        <motion.div
+          variants={fadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{once: false}}
+
+        className="flex flex-col justify-center items-center max-w-[1400px] h-[400px] w-full rounded-xl bg-black/10 m-auto p-6 relative">
             <div>
               {testimonial_data.map((item, index) => index === slide && <div key={index}>
                 <div className="flex gap-5">
@@ -67,7 +84,7 @@ const Testimonials = () => {
           <div onClick={nextSlide} className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactRight size={50}/>
           </div>
-        </div>
+        </motion.div>
     </div>
     </section>
   )
