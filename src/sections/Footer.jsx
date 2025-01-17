@@ -23,6 +23,7 @@ const Footer = () => {
             <FaYoutube className='icon'/>
           </div>
         </div>
+        <p className='text-center mt-3 text-sm leading-7 text-slate-800'>&copy; {new Date().getFullYear()} Chika Hula. Designed and Developed by Masaru Moribe.</p>
     </footer>
   )
 }

@@ -53,7 +53,7 @@ const Testimonials = () => {
           viewport={{once: false}}
         >
           <h1 className="text-center text-3xl text-slate-800 font-bold font-montserrat z-10">Testimonials</h1>
-          <h1 className="text-center text-3xl text-slate-800 font-bold font-notoSansJp z-10">お客様の声</h1>
+          <h1 className="text-center text-3xl text-slate-800 font-bold font-notoSansJp z-10">生徒さんの声</h1>
         </motion.div>
         <motion.div
           variants={fadeIn("right", 0.2)}
