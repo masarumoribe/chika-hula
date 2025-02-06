@@ -4,7 +4,7 @@ import heroPhoto from './chika-hula.jpg'
 
 import profile from './profile.jpg'
 
-import plumeria from './plumeria.png'
+import plumeria from './plumeria.webp'
 
 import chika0 from './chika0.jpg'
 import chika1 from './chika1.jpeg'
@@ -28,7 +28,7 @@ import chika18 from './chika18.jpeg'
 import chika19 from './chika19.jpeg'
 import chika20 from './chika20.jpeg'
 
-import contactBackground from './contactBackground.png'
+import contactBackground from './contactBackground.webp'
 
 import test0 from './test0.jpg'
 import test1 from './test1.jpg'
